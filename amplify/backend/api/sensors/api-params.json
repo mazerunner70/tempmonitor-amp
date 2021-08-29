@@ -1,0 +1,38 @@
+{
+  "paths": [
+    {
+      "name": "/sensors",
+      "lambdaFunction": "sensors",
+      "privacy": {
+        "private": true,
+        "auth": [
+          "/GET"
+        ]
+      },
+      "policyResourceName": "/sensors"
+    }
+  ],
+  "resourceName": "sensors",
+  "apiName": "sensors",
+  "functionArns": [
+    {
+      "lambdaFunction": "sensors"
+    }
+  ],
+  "privacy": {
+    "auth": 1,
+    "unauth": 0,
+    "authRoleName": "amplify-homeiot-dev-122917-authRole",
+    "unAuthRoleName": "amplify-homeiot-dev-122917-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "sensors",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

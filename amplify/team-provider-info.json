@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-homeiot-dev-122917-authRole",
+      "UnauthRoleArn": "arn:aws:iam::915524423834:role/amplify-homeiot-dev-122917-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::915524423834:role/amplify-homeiot-dev-122917-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-homeiot-dev-122917-deployment",
+      "UnauthRoleName": "amplify-homeiot-dev-122917-unauthRole",
+      "StackName": "amplify-homeiot-dev-122917",
+      "StackId": "arn:aws:cloudformation:eu-west-1:915524423834:stack/amplify-homeiot-dev-122917/5a031cb0-08bc-11ec-96c0-02e2f9bbaf0b",
+      "AmplifyAppId": "d2k0ybosfro1qr"
+    },
+    "categories": {
+      "auth": {
+        "cognitofc244a41": {}
+      },
+      "function": {
+        "sensors": {
+          "deploymentBucketName": "amplify-homeiot-dev-122917-deployment",
+          "s3Key": "amplify-builds/sensors-304a644a6172514e7772-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2k0ybosfro1qr",
+          "type": "cicd"
+        }
+      }
+    }
+  }
+}

@@ -25,7 +25,7 @@ function App() {
       })
       .catch(error => {
         console.log(error.response);
-    });
+    }); 
   }, []);
 
 

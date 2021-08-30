@@ -7,13 +7,17 @@ const initialFormState = { name: '', description: '' }
 
 const apiName = 'sensors';
 const path = 'https://m6t068kzie.execute-api.eu-west-1.amazonaws.com/staging/sensors'; 
-const myInit = { // OPTIONAL
-    headers: {}, // OPTIONAL
-    response: true, // OPTIONAL (return the entire Axios response object instead of only response.data)
-    queryStringParameters: {  // OPTIONAL
-        name: 'param',
-    },
-};
+// const myInit = { // OPTIONAL
+//     headers: {}, // OPTIONAL
+//     response: true, // OPTIONAL (return the entire Axios response object instead of only response.data)
+//     queryStringParameters: {  // OPTIONAL
+//         name: 'param',
+//     },
+// };
+
+let myInit = {
+  body: {}
+}
 
 function App() {
 
